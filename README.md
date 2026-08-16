@@ -33,7 +33,7 @@ Use my eeg electrodes to read brain waves (probably just the larger or easier to
 
 ## Project Journal
 
-### Phase 1: Electrodes -> Amplifier ->  Arduino -> Computer
+### Sat, 08.15.26 - Phase 1: Electrodes -> Amplifier ->  Arduino -> Computer
 I started with the most basic setup I could do with what I had. My first thought was, "An electrode is just a sensor that picks up voltages right?" That was wrong. EEGs are actual ***differential*** signals. They answer the question, "What is the ***difference*** in voltage between two spots on the scalp."
 
 ![wiring diagram](images/Wiring%20Diagram.drawio.png)
@@ -121,15 +121,14 @@ In the meantime, here's the software plan!
 
 **Processing Software**
 
-Arduino -> Sample A0 and turn on ADC for it -> Serial Port
-Python -> Read from Serial display real time -> Processing
-
-Alt: Matlab?
+- Arduino -> Sample A0 and turn on ADC for it -> Serial Port
+- Python -> Read from Serial display real time -> Processing
+- Alt: Matlab?
 
 **Testing Signal**
 
-Arduino -> Output PWM (or sine-ish) for EEG+
-Same signal but with a resistor to drop the voltage a bit for EEG-??
+- Arduino -> Output PWM (or sine-ish) for EEG+
+- Same signal but with a resistor to drop the voltage a bit for EEG-??
 
 ### Future Plans:
 1. Do preprocessing with my opAmps
