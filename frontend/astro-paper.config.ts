@@ -11,6 +11,7 @@ export default defineAstroPaperConfig({
     lang: "en",
     timezone: "America/New_York",
     dir: "ltr",
+    base: "/eeg-stuff"
   },
   posts: {
     perPage: 4,
