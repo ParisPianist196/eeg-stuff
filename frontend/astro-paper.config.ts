@@ -10,8 +10,7 @@ export default defineAstroPaperConfig({
     ogImage: "default-og.jpg",
     lang: "en",
     timezone: "America/New_York",
-    dir: "ltr",
-    base: "/eeg-stuff"
+    dir: "ltr"
   },
   posts: {
     perPage: 4,
