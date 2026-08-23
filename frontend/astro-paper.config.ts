@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
+    url: "https://parispianist196.github.io/eeg-stuff/",
     title: "EEG with Abi",
     description: "A dev log for Abi to discuss her EEG project.",
     author: "Abigail Lovelace",
@@ -24,15 +24,14 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/ParisPianist196/eeg-stuff",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",   url: "https://github.com/ParisPianist196" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/abigail-lovelace/" },
+    { name: "mail",     url: "mailto:abi@abigaillovelace.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
