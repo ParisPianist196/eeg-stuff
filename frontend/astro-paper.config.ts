@@ -32,6 +32,7 @@ export default defineAstroPaperConfig({
     { name: "github",   url: "https://github.com/ParisPianist196" },
     { name: "linkedin", url: "https://www.linkedin.com/in/abigail-lovelace/" },
     { name: "mail",     url: "mailto:abi@abigaillovelace.com" },
+    { name: "discord",  url: "https://discord.gg/duSwHCh68X" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
