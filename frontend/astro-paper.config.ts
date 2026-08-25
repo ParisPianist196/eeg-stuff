@@ -7,7 +7,7 @@ export default defineAstroPaperConfig({
     description: "A dev log for Abi to discuss her EEG project.",
     author: "Abigail Lovelace",
     profile: "https://abigaillovelace.com",
-    ogImage: "default-og.jpg",
+    ogImage: "portfolio.png",
     lang: "en",
     timezone: "America/New_York",
     dir: "ltr"
