@@ -23,8 +23,7 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
-      url: "https://github.com/ParisPianist196/eeg-stuff",
+      enabled: false,
     },
     search: "pagefind",
   },
